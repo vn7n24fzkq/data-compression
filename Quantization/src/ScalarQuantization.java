@@ -1,4 +1,4 @@
-public class ScalarQuantisation {
+public class ScalarQuantization {
     static int[][] matrix =
             {{139,144,149,153,155,155,155,155},
             {144,151,153,156,159,156,156,156},
@@ -14,7 +14,7 @@ public class ScalarQuantisation {
     int[] codebook;
     public static void main(String[] args){
 
-        ScalarQuantisation sq =  new ScalarQuantisation();
+        ScalarQuantization sq =  new ScalarQuantization();
         int array[][] = sq.getUniformedLevelMatrix(matrix);
         for(int i = 0; i < array.length;i++){
             for(int j = 0;j < array[i].length;j++){
