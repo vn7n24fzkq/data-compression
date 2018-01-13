@@ -55,7 +55,6 @@ public class Run {
         int width = image.getWidth();
         int height = image.getHeight();
         QuadTree quadTree = new QuadTree(colors, new ImageMeasure(), threshold);
-        // QuadTree quadTree = new QuadTree(colors, new ImageMeasure(), threshold, new Color(0, 0, 0));
         BufferedImage outImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < height; j++) {
